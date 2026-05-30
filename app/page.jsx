@@ -35,7 +35,7 @@ import { useState } from "react";
   ["Wallet In Pain", "PAIN", "$36K", 89],
   ["Green Candle Cult", "GCC", "$260K", 52],
 ];
-];
+
 
 export default function Page() {
   const [started, setStarted] = useState(false);
