@@ -1,13 +1,4 @@
 "use client";
-                >
-                  <div className="absolute right-5 top-5 rounded-full bg-black/30 px-3 py-1 text-xs font-bold text-white/70">
-                    {current.mc} MC
-                  </div>
-
-                  <div className="grid h-28 w-28 place-items-center rounded-3xl bg-gradient-to-br from-fuchsia-500 to-emerald-400 text-4xl font-black shadow-lg">
-                    ${current.ticker.slice(0, 2)}
-                  </div>
-
                   <div className="mt-8">
                     <p className="text-sm font-bold uppercase tracking-[0.35em] text-white/40">${current.ticker}</p>
                     <h2 className="mt-2 text-4xl font-black">{current.name}</h2>
